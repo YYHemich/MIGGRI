@@ -16,10 +16,15 @@ Training the model with validation by
 
 To retrain the model adding validation data into training with the best model setting on validation, execute
 
-​	python retrain.py --model "src of the model"
+```
+python retrain.py --model "src of the model"
+```
 
 A running example is given in main.sh.
 
 To evaluate the model performance, execute
 
-​	python test.py --model "scr of the model"
+```
+python test.py --model "scr of the model"
+```
+
