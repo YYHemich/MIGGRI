@@ -14,7 +14,7 @@ def argument():
     parser.add_argument('--lr', type=float, default=0.05, help='learning rate')
     parser.add_argument('--warmup', type=bool, default=True, help='warm up learning rate scheduler ')
     parser.add_argument('--warmup_portion', type=float, default=0.2, help='warm up learning rate scheduler ')
-    parser.add_argument('--test_idx', type=int, default=3,
+    parser.add_argument('--test_idx', type=int, default=2,
                         help='index of the test set. out of the range means all data use for training.')
     parser.add_argument('--mini_batch_len', type=int, default=5, help='number of the mini batch')
     parser.add_argument('--mini_batch_pattern', default='data/rr_mini_batch_%s.pkl', help='pattern of dataset src')
@@ -23,7 +23,7 @@ def argument():
     parser.add_argument('--torch_random_seed', default=0, type=int)
     parser.add_argument('--bidirectional', action='store_true', help='build bidirectional graph')
     parser.add_argument('--gnn', default='sage', choices=['sage', 'gat', 'gcn'])
-    parser.add_argument('--aggr', type=str, default='mean', choices=['lstm', 'max', 'mean'])
+    parser.add_argument('--aggr', type=str, default='lstm', choices=['lstm', 'max', 'mean'])
     parser.add_argument('--Predictor', type=str, default='dot', choices=['dot', 'mlp', 'lin'],
                         help='edge feature predictor e.g. dot mlp linear')
     args = parser.parse_args()
