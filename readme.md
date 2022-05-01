@@ -8,4 +8,18 @@ We provides the extracted features in data/con_128.pkl.
 
 
 
-The GRN regulatory interactions are stored in train_set.pkl and test_set.pkl.
+### Usage
+
+Training the model with validation by
+
+   	python train.py --bidirectional
+
+To retrain the model adding validation data into training with the best model setting on validation, execute
+
+​	python retrain.py --model "src of the model"
+
+A running example is given in main.sh.
+
+To evaluate the model performance, execute
+
+​	python test.py --model "scr of the model"
