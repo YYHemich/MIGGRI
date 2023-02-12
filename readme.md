@@ -2,9 +2,9 @@
 
 This repository contains the codes for ''MIGGRI: a multi-instance graph neural network model for inferring gene regulatory network from spatial expression images''
 
-![](D:\learning\暑期实验室项目\AcademicWriting\果蝇项目\modelStage1_refined.png)
+![](https://github.com/YYHemich/MIGGRI/edit/main/modelStage1_refined.png)
 
-![modelStage2-refined](D:\learning\暑期实验室项目\AcademicWriting\果蝇项目\modelStage2-refined.png)
+![](https://github.com/YYHemich/MIGGRI/edit/main/modelStage2-refined.png)
 
 
 
